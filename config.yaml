@@ -1,0 +1,40 @@
+baseURL: "https://www.numbersandreality.com/"
+languageCode: "en-us"
+title: "N & R"
+
+build:
+  writeStats: true
+
+params:
+  description: Putting the Science back in Computer Science
+  mainSections:
+    - posts
+    - notes
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts
+      weight: 20
+    - identifier: notes
+      name: Notes
+      url: /notes
+      weight: 20
+
+enableRobotsTXT: true
+privacy:
+  disqus:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    privacyEnhanced: true

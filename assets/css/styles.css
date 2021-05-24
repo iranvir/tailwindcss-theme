@@ -1,0 +1,19 @@
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+@import "node_modules/tailwindcss/utilities";
+
+h1 {
+  @apply text-5xl;
+}
+h2 {
+  @apply text-4xl pt-4 pb-4;
+}
+h3 {
+  @apply text-3xl pt-4 pb-4;
+}
+pre {
+  @apply scrollbar scrollbar-track-gray-900 scrollbar-thumb-gray-600 font-mono overflow-x-auto bg-gray-700 pl-4 pt-2 pb-2 mt-2 mb-2 rounded-md shadow-md;
+}
+p {
+  @apply pt-2 pb-2;
+}

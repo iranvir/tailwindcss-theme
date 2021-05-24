@@ -1,0 +1,8 @@
+<svg role="img" class="fill-current text-gray-700 dark:text-gray-500 inline-block h-3 w-3 mr-1" aria-hidden="true"><use xlink:href="#clock"></use></svg>
+<time datetime="{{ .context.Date.Format "2006-31-01" }}">{{ .context.Date.Format "2 January 2006" }}</time> &bull;  {{ .context.ReadingTime }} min read
+
+<a href="{{ .context.Permalink }}">
+	<h2>{{ .context.Title }}</h2>
+	<p>{{ .context.Summary }}</p>
+</a>
+
