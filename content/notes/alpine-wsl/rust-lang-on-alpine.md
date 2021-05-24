@@ -12,7 +12,7 @@ dependencies that includes clang and lld from the apk repositories and curl to
 download and install the [Rust
 Toolchain](https://www.rust-lang.org/tools/install).
 
-# 1. Getting the dependencies
+## 1. Getting the dependencies
 We will need a C compiler and a Linker. Actually only the linker will be used to
 link your binaries against the standard C library unless your Rust project is
 explicitly called C programs. I will be using the LLVM Project's `lld` linker

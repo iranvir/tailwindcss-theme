@@ -1,72 +1,68 @@
 <nav class="m-0">
-  {{- partial "social-svgs.html" . -}}
-  <div
-    class="
-      h-14
-      flex
-      items-center
-      grid grid-cols-2
-      dark:bg-gray-700
-      dark:text-gray-300
-    "
-  >
-    <div class="font-bold">
-      <div class="inline-block p-2"><a href="{{ .Site.BaseURL }}"> {{- .Site.Title -}}</a></div>
-      {{ range $.Site.Menus.main }}
-      <div class="inline-block p-2">
-        <a href="{{ .URL }}">{{ .Pre }} {{- .Name -}}</a>
-      </div>
-      {{ end }}
-    </div>
+{{- partial "social-svgs.html" . -}}
+<div
+class="
+	h-14
+	flex
+	items-center
+	grid grid-cols-2
+	dark:bg-gray-700
+	dark:text-gray-300
+"
+>
+<div class="font-bold">
+	<div class="inline-block p-2"><a href="{{ .Site.BaseURL }}"> {{- .Site.Title -}}</a></div>
+	{{ range $.Site.Menus.main }}
+	<div class="inline-block p-2">
+	<a href="{{ .URL }}">{{ .Pre }} {{- .Name -}}</a>
+	</div>
+	{{ end }}
+</div>
 
-    <div class="flex flex-row-reverse">
-      <div class="p-2 fill-current text-gray-300">
-        <a href="https://youtube.com/c/iRanvir">
-          <svg width="20" height="20" role="img">
-            <use xlink:href="#youtube"></use>
-          </svg>
-        </a>
-      </div>
+<div class="flex flex-row-reverse">
 
-      <div class="p-2 fill-current text-gray-300">
-        <a href="https://gitlab.com/Ranvir">
-          <svg width="20" height="20" role="img">
-            <use xlink:href="#gitlab"></use>
-          </svg>
-        </a>
-      </div>
 
-      <div class="p-2 fill-current text-gray-300">
-        <a href="https://twitter.com/_iranvir">
-          <svg width="20" height="20" role="img">
-            <use xlink:href="#twitter"></use>
-          </svg>
-        </a>
-      </div>
+	<div class="p-2 fill-current text-gray-300">
+	<a href="/index.xml">
+		<svg width="20" height="20" role="img">
+		<use xlink:href="#rss"></use>
+		</svg>
+	</a>
+	</div>
 
-      <div class="p-2 fill-current text-gray-300">
-        <a href="https://github.com/iranvir">
-          <svg width="20" height="20" role="img">
-            <use xlink:href="#github"></use>
-          </svg>
-        </a>
-      </div>
 
-      <div class="p-2 fill-current text-gray-300">
-        <a href="https://www.linkedin.com/in/iranvir/">
-          <svg width="20" height="20">
-            <use xlink:href="#linkedin"></use>
-          </svg>
-        </a>
-      </div>
+	<div class="p-2 fill-current text-gray-300">
+	<a href="https://twitter.com/_iranvir">
+		<svg width="20" height="20" role="img">
+		<use xlink:href="#twitter"></use>
+		</svg>
+	</a>
+	</div>
 
-      <div class="p-2 fill-current text-gray-300">
-        <a href="/index.xml">
-          <svg width="20" height="20" role="img">
-            <use xlink:href="#rss"></use>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </div>
+	<div class="p-2 fill-current text-gray-300">
+	<a href="https://gitlab.com/Ranvir">
+		<svg width="20" height="20" role="img">
+		<use xlink:href="#gitlab"></use>
+		</svg>
+	</a>
+	</div>
+
+	<div class="p-2 fill-current text-gray-300">
+	<a href="https://www.linkedin.com/in/iranvir/">
+		<svg width="20" height="20">
+		<use xlink:href="#linkedin"></use>
+		</svg>
+	</a>
+	</div>
+
+	<div class="p-2 fill-current text-gray-300">
+	<a href="https://youtube.com/c/iRanvir">
+		<svg width="20" height="20" role="img">
+		<use xlink:href="#youtube"></use>
+		</svg>
+	</a>
+	</div>
+
+</div>
+</div>
 </nav>
