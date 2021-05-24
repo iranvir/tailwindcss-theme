@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wsl on N &amp; R</title>
+    <link>https://www.numbersandreality.com/tags/wsl/</link>
+    <description>Recent content in wsl on N &amp; R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.numbersandreality.com/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 3: Installing Rust Lang on Alpine (With just LLVM Dependencies)</title>
+      <link>https://www.numbersandreality.com/notes/alpine-wsl/rust-lang-on-alpine/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/notes/alpine-wsl/rust-lang-on-alpine/</guid>
+      <description>Let&amp;rsquo;s install Rust Programming Language on Alpine Linux, with almost no GNU Dependencies. We will use the offical Rust Lang installer (rustup) and we will use LLVM toolchain when we need C toolchain for things like linking, etc.</description>
+    </item>
+    
+    <item>
+      <title>Part 2: Installing Go Lang on Alpine (Without GCC or LLVM Dependencies)</title>
+      <link>https://www.numbersandreality.com/notes/alpine-wsl/go-lang-on-alpine/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/notes/alpine-wsl/go-lang-on-alpine/</guid>
+      <description>Download and install latest version of Go Programming Language on Alpine Linux without any dependencies. Just vanilla Go Lang from the offical website. No extra libraries, nothing.</description>
+    </item>
+    
+    <item>
+      <title>Alpine on WSL</title>
+      <link>https://www.numbersandreality.com/notes/alpine-wsl/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/notes/alpine-wsl/</guid>
+      <description>Let&amp;rsquo;s create a WSL 2 environment running Alpine Linux. Once the setup is complete we can then proceed to setup various Dev toolchains to see how to get productive on an Alpine Linux system.</description>
+    </item>
+    
+    <item>
+      <title>Part 1: LLVM/Clang on Alpine</title>
+      <link>https://www.numbersandreality.com/notes/alpine-wsl/clang-on-alpine/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/notes/alpine-wsl/clang-on-alpine/</guid>
+      <description>Let&amp;rsquo;s setup a relatively GNU Free C Programming setup on Alpine Linux. We will use LLVM toolchain for almost everything expect for libgcc and libstdc++</description>
+    </item>
+    
+    <item>
+      <title>Part 0: Installing Alpine on WSL 2</title>
+      <link>https://www.numbersandreality.com/notes/alpine-wsl/alpine-wsl/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/notes/alpine-wsl/alpine-wsl/</guid>
+      <description>Learn how to setup the latest version of Alpine Linux on WSL 2 without using Microsoft Store. We will just use the latest vanilla rootfs from offical Alpine Linux Page</description>
+    </item>
+    
+    <item>
+      <title>WSL setup for Windows 10</title>
+      <link>https://www.numbersandreality.com/posts/wsl-setup/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/posts/wsl-setup/</guid>
+      <description>Let&amp;rsquo;s learn how we can automate a WSL/WSL2 environment to be setup exactly the way we want it to be. This way if you break your WSL2 installation you can easily reproduce the exact setup within minutes!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development setup on N &amp; R</title>
+    <link>https://www.numbersandreality.com/tags/development-setup/</link>
+    <description>Recent content in development setup on N &amp; R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.numbersandreality.com/tags/development-setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manage Multiple GitHub Accounts from a Single Shell</title>
+      <link>https://www.numbersandreality.com/posts/multiple-github-accounts/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/posts/multiple-github-accounts/</guid>
+      <description>I have two GitHub accounts; One for work and one for personal projects. In this post, I describe my thought process when I was trying to easily switch between the two on my local computer.</description>
+    </item>
+    
+    <item>
+      <title>WSL setup for Windows 10</title>
+      <link>https://www.numbersandreality.com/posts/wsl-setup/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/posts/wsl-setup/</guid>
+      <description>Let&amp;rsquo;s learn how we can automate a WSL/WSL2 environment to be setup exactly the way we want it to be. This way if you break your WSL2 installation you can easily reproduce the exact setup within minutes!</description>
+    </item>
+    
+  </channel>
+</rss>

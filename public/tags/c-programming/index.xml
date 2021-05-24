@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C Programming on N &amp; R</title>
+    <link>https://www.numbersandreality.com/tags/c-programming/</link>
+    <description>Recent content in C Programming on N &amp; R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.numbersandreality.com/tags/c-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 1: LLVM/Clang on Alpine</title>
+      <link>https://www.numbersandreality.com/notes/alpine-wsl/clang-on-alpine/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.numbersandreality.com/notes/alpine-wsl/clang-on-alpine/</guid>
+      <description>Let&amp;rsquo;s setup a relatively GNU Free C Programming setup on Alpine Linux. We will use LLVM toolchain for almost everything expect for libgcc and libstdc++</description>
+    </item>
+    
+  </channel>
+</rss>
