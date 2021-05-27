@@ -5,7 +5,7 @@
     "dependencies": {
         "@fullhuman/postcss-purgecss": "latest",
         "autoprefixer": "latest",
-        "package.json": "^2.0.1",
+        "package.json": "latest",
         "postcss": "latest",
         "postcss-cli": "latest",
         "postcss-import": "latest",
