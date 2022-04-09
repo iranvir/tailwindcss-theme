@@ -6,8 +6,6 @@
 	<title>{{ $title }}</title>
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	{{ $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
-	{{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-	<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+	<link rel="stylesheet" href="/output.css">
 </head>
 

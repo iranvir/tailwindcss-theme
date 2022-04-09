@@ -2,9 +2,6 @@ baseURL: "https://www.numbersandreality.com/"
 languageCode: "en-us"
 title: "N & R"
 
-build:
-  writeStats: true
-
 params:
   description: Putting the Science back in Computer Science
   mainSections:

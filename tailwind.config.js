@@ -1,4 +1,5 @@
 module.exports = {
+  content: ['./layouts/**/*.html', './content/**/*.md'],
   darkMode: 'media',
   theme: {
     extend: {}
@@ -10,4 +11,3 @@ module.exports = {
     require('tailwind-scrollbar')
   ]
 }
-
