@@ -1,12 +1,11 @@
 baseURL: "https://tailwindtheme.ranvir.tech/"
 languageCode: "en-us"
-title: "N & R"
+title: "TailwindCSS Hugo Theme"
 
 params:
   description: Putting the Science back in Computer Science
   mainSections:
     - posts
-    - notes
 
 menu:
   main:
